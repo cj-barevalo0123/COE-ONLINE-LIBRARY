@@ -1,0 +1,830 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik+Iso&display=swap');
+
+/* body{
+    background-color:black ;
+}
+
+#p1{
+    color: red;
+}
+
+#p2{
+    color: green;
+}
+
+#p3{
+    color: yellow;
+}
+
+#p4, #p5, #p6{
+    color: aqua;
+}
+
+.others{
+    color: aqua;
+} */
+
+/* p{
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.others{
+    font-family: 'Rubik Iso', cursive;
+} */
+
+/* h1{
+    font-size: 50px;
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Rubik Iso";
+
+}
+
+p{
+    font-size: 30px;
+    border-top: 5px dotted blue;
+    border-bottom: 5px dotted red;
+    border-left: 5px solid green;
+    border-right: 5px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Raleway";
+    font-style: italic;
+    color: purple;
+}  */
+
+/* h1{
+    text-shadow: 4px 4px 5px red, -4px -4px 5px blue;
+}
+
+#box{
+    width: 200px; height: 200px;
+    background-color: aqua;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    border: 5px solid black;
+} */
+
+/* body{
+    margin: 0px;
+}
+.box{
+    width: 150px; height: 150px;
+    font-family: "Rubik Iso";
+    font-size: 50px;
+    text-align: center;
+    border: 5px solid purple;
+}
+
+#box1{
+    background-color: blue;
+    margin: 10px 0px 5px 10px;
+}
+
+#box2{
+    background-color: red;
+    margin: 0px 10px 0px auto;
+} */
+
+/* .box{
+    width: 100px; height: 50px;
+    text-align: center;
+    float: left;
+    padding-top: 30px;
+    margin: 15px 10px 0px 15px;
+
+}
+
+p{
+    padding: 20px;
+}
+
+#box1{
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px red;
+}
+
+.pbox1{
+    border-style: dotted solid double dashed;
+    border-width: 10px;
+    border-color: red;
+}
+
+
+#box2{
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px green;
+}
+.pbox2{
+    border-style: solid dotted double;
+    border-width: 5px;
+    border-color: green;
+}
+
+#box3{
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px yellow;
+}
+
+.pbox3{
+    border-style: double solid;
+    border-width: 5px;
+    border-color: yellow;
+}
+
+
+#overflow{
+    border: 5px solid black;
+} */
+
+/* div{
+    border: 2px solid;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    overflow: auto;
+    height: 75px;
+    box-shadow: 0px 5px 3px black, 0px -2px 3px black
+} */
+
+/* div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    text-align: center;
+}
+span{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+} */
+
+/* *{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+h1{
+    color: blue;
+}
+
+
+
+.box{
+    border: 3px solid black;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: aqua;
+
+    max-height: 50%;
+    min-width: 50%;
+} */
+
+/* .box{
+    width: auto;
+    height: 50px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    border-radius: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+#box1{
+    width: auto;
+    height: 30px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 30px;
+}
+
+#pgraph{
+    padding: 5px 7px 0px 10px;
+    border-radius: 20px;
+    background-color: aqua; 
+    border-style: dotted dashed;
+    border-width: 5px;
+
+} */
+
+
+/* h1, p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-style: italic;
+}
+
+body{
+    background-image: url(bg-sample.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+} */
+
+/* #container, #container ~ p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+
+#container{
+    border: 3px solid;
+    padding: 0px 10px 0px 10px;
+}
+
+#container p{
+    background-color: rebeccapurple;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+#container > p {
+    background-color: red;
+}
+
+#container ~ p{
+    background-color: pink;
+    padding: 0px 10px 0px 10px;
+    
+    
+}
+
+#container + p{
+    background-color: blue;
+
+} */
+
+
+/* button{
+
+    background-color: blue;
+    font-size: 50px;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 10px;
+    
+}
+.container{
+    height: 100vh;
+    border: 5px solid;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button:hover{
+    background-color: red;
+    border-color: blue;
+    color: blue;
+}
+
+button:active{
+    background-color: purple;
+    color: red;
+    border-color: red;
+} */
+
+
+/* li:nth-child(2n + 1){
+    color: red;
+} */
+
+/* li:hover{
+    color: blue;
+    font-size: 1.3em;
+}
+
+li:active{
+    color: red;
+    font-size: 1.3em;
+} */
+
+/* .news #n1{
+    display: none;
+}
+
+.news:hover #n1{
+    display: block;
+}
+
+.news:active #n1{
+    display: none;
+} */
+
+
+/* h1::first-letter{
+    color: blue;
+    font-size: 2.2em;
+}
+
+p::first-line{
+    background-color: rebeccapurple;
+}
+
+li::marker{
+    content: "👩‍💻";
+}
+
+#moni::after{
+    content: "🖥";
+}
+#su::after{
+    content: "💽";
+}
+
+#m::after{
+    content: "🖱";
+}
+
+#kb::after{
+    content: "⌨";
+}
+
+#mb::after{
+    content: "💿";
+} */
+
+/* h1, .newsp{
+    text-align: center;
+}
+
+.newsp a{
+    text-align: center; 
+    text-decoration: none;
+    font-size: 2.2em;
+    padding: 15px 20px;
+    color: red;
+}
+
+.newsp a.active{
+    background-color: rebeccapurple;
+    border-radius: 10px;
+}
+
+.newsp a:hover:not(.activer){
+    background-color: green;
+    border-radius: 10px;
+}
+
+.pagination{
+    background-color: gray;
+    border: 3px solid;
+    border-color: palevioletred;
+}
+
+.pagination a:hover:not(.activer){
+    background-color: brown;
+    border-radius: 10px;
+} */
+
+
+/* *{
+    padding: 0%;
+
+}
+
+.container button{
+    font-size: 30px;
+    border: none;
+    width: 145px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.container a{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+.container .content{
+    background-color: aquamarine;
+    position: absolute;
+    min-width: 140px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black, -5px 5px 5px black;
+    display: none;
+
+}
+
+
+.container:hover .content{
+    display: block;
+    margin-top: 0px;
+}
+
+.container:hover button{
+    background-color: violet;
+}
+
+.container a:hover{
+    background-color: pink;
+} */
+
+
+/* header h1{
+    float: left;
+    padding: 0;
+    margin-right: 40%;
+
+}
+
+h1{
+    text-align: center;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    font-size: 30px;
+    padding-left: 10px;
+    
+}
+
+header a{
+    float: left;
+
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+header a:hover{
+    background-color: rgb(226, 128, 128);
+    border-radius: 30px;
+} */
+
+
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(161, 128, 128);
+}
+
+nav{
+    background-color: black;
+    height: 10px;
+}
+
+aside, section, article{
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 40px;
+    background-color: aqua;
+}
+
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+    
+} */
+
+*{
+    margin: 0;
+}
+
+.gallery{
+    padding: 20px;
+    border: 3px solid;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 85px;
+}
+
+.gallery img{
+    height: 300px;
+    border: 2px solid red;
+}
+
+
+.gallery:hover{
+    box-shadow: 4px 4px 5px red,-4px -4px 5px red ;
+    border: 3px solid red;
+}
+
+.gallery img:hover{
+    border: 3px solid black;
+}
+
+.gallery h2:hover{
+    color: purple;
+}
+
+
+
+/* *{
+    margin: 10px;
+}
+
+h1{
+    float: left;
+    font-size: 70px;
+}
+
+.icon{
+    text-align: right;   
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-brands.fa-facebook.fa-5x{
+    color: blue;
+    border: 3px solid;
+    border-radius: 50px;
+}
+.fa-brands.fa-facebook.fa-5x:hover{
+    border: 3px solid rgb(21, 21, 121);
+    border-radius: 50px;
+    color: rgb(10, 14, 13);
+    box-shadow: 3px 3px 5px blue;
+}
+
+.fa-brands.fa-instagram.fa-5x{
+    color:rebeccapurple;
+    border-radius: 20px;
+    border: 3px solid;
+}
+.fa-brands.fa-instagram.fa-5x:hover{
+    border: 3px solid rebeccapurple;
+    border-radius: 20px;
+    color: rgb(10, 14, 13);
+    box-shadow: 3px 3px 5px rebeccapurple;
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: red;
+    border-radius: 20px;
+    border: 3px solid;
+}
+
+.fa-brands.fa-youtube.fa-5x:hover{
+    border: 3px solid red;
+    border-radius: 20px;
+    color: rgb(10, 14, 13);
+    box-shadow: 3px 3px 5px red;
+}
+
+
+
+.fa-brands.fa-tiktok.fa-5x{
+    color: black;
+    border-radius: 20px;
+    border: 3px solid;
+}
+
+.fa-brands.fa-tiktok.fa-5x:hover{
+    border: 3px solid rgb(7, 4, 4);
+    border-radius: 20px;
+    color: rgb(13, 163, 126);
+    box-shadow: 3px 3px 5px rgb(5, 5, 5);
+} */
+
+/* *{
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    border: 3px solid black;
+    flex-wrap:wrap;
+    align-content: baseline;
+    column-gap: 1em;
+    row-gap: 0.5em;
+ 
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 2em;
+} */
+
+/* *{
+    margin: 0;
+}
+
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    margin: 10px;
+    font-size: 130px;
+    text-align: center;
+    transform: rotateZ(45deg) translateX(100px);
+}
+
+#box1{
+    background-color: #6b3232;
+}
+
+#box2{
+    background-color: #532480;
+
+}
+
+#box3{
+    background-color: #248354;
+}
+
+img{
+    height: 300px;
+    margin: 5% 3%;
+    transform: rotate(180deg);
+} */
+
+
+/* *{
+    margin: 0;
+}
+
+.pd{
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    border: 5px solid blueviolet;
+    transform: translateX(90%);
+    animation-name: bordercolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+h2{
+    font-size: 50px;
+    animation-name: head;
+}
+
+h2:hover{
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.fd{
+    background-color: aqua;
+    margin: 20px;
+    height: 30px;
+    border: 3px solid;
+    padding-top: 10px;
+}
+
+#name{
+    animation-name: name;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+#addres{
+    animation-name: addres;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0, 1.37, 1,-0.39);
+}
+
+#num{
+    animation-name: num;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+
+
+#school{
+    animation-name: school;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+}
+
+
+
+@keyframes head{
+    from{transform: translateY(-300%)}
+}
+@keyframes name{
+    from{transform: translateX(300%);}
+}
+@keyframes addres{
+    from{transform:translateX(-300%)}
+}
+@keyframes num{
+    from{transform:translateX(300%)}
+}
+@keyframes school{
+    from{transform:translateX(-300%)}
+}
+
+
+@keyframes glow{
+    10%{text-shadow: 0 0 50px rgb(196, 17, 17);}
+}
+
+@keyframes bordercolor{
+    0%{border: 5px solid blueviolet}
+    10%{border: 5px solid rgb(175, 20, 41);}
+    20%{border: 5px solid rgb(175, 20, 154);}
+    30%{border: 5px solid rgb(20, 23, 175);}
+    40%{border: 5px solid rgb(6, 134, 143);}
+    50%{border: 5px solid rgb(20, 175, 85);}
+    60%{border: 5px solid rgb(231, 22, 22);}
+    70%{border: 5px solid rgb(213, 216, 8);}
+    80%{border: 5px solid rgb(20, 6, 211);}
+    90%{border: 5px solid rgb(85, 177, 0);}
+    100%{border: 5px solid rgb(175, 20, 41);}
+} */
+
+
+
+/* @keyframes fade{
+    100%{opacity: 0}  
+}
+@keyframes fadeIn{
+    100%{opacity: 1}
+} */
+
+
+img{
+    transform: translateX(90vh);
+    margin-top: 100px;
+    border: 10px solid black;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+img:hover{
+    animation-name: rote;
+    animation-duration: 2;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img{
+    20%{border: 10px solid rgb(186, 189, 15)}
+    40%{border: 10px solid rgb(129, 7, 113)}
+    60%{border: 10px solid rgb(28, 5, 129)}
+    80%{border: 10px solid rgb(14, 179, 41)}
+    100%{border: 10px solid rgb(187, 12, 6)}
+
+}
+
+@keyframes rote{
+    to{transform: scale(1)}
+}
